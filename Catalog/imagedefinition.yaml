@@ -1,0 +1,23 @@
+$schema: "1.0"
+name: devbox-customization
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
+
+userTasks:
+  - name: ~/winget
+    parameters:
+      package: Microsoft.VisualStudioCode
+  - name: ~/winget
+    parameters:
+      package: GitHub.GitHubDesktop
+  - name: ~/winget
+    parameters:
+      package: GitHub.cli
+  - name: ~/winget
+    parameters:
+      package: Adobe.Acrobat.Reader.64-bit
+  - name: ~/winget
+    parameters:
+      package: Microsoft.AzureCLI
+  - name: ~/winget
+    parameters:
+      package: Microsoft.Bicep
